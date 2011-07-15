@@ -38,10 +38,14 @@ class BasicTest{
 				if (substr($method_name, 0, 4)!="test") continue;
 				$ret_val=$test_class->$method_name();
 				
-				if ($ret_val) 
+				echo "ret val is $ret_val <br>";
+				if ($ret_val===true){ 
 					$this->tests_passed++;
-				else
+				}
+				else {
 					$this->tests_failed++;
+					$ret_val=false;
+				}
 				
 				$this->test_results[$method_name]=$ret_val;
 			}

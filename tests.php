@@ -42,12 +42,25 @@ class TestSimpleClass{
 	
 	public function testTwo(){
 		$tst_var=$this->testClass->funct_two();
-		return $tst_var==5;
+		return $tst_var==2;
 		//print "this is testTwo method<br>";
 	}
 
 	public function othertestTwo(){
 		print "this is not a test othertestTwo<br>";
+	}
+	
+	/**
+	testing if -1 results to true
+	*/
+	public function testMinusOne(){
+		return -1;
+	}
+	/**
+	test any positive value be success
+	*/
+	public function testPositiveValue(){
+		return 5;
 	}
 
 }
