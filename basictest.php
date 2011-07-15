@@ -72,10 +72,10 @@ class BasicTest{
 	*/
 	private function createResultsHeader(){
 		if ($this->tests_failed==0){
-			echo "Tests compleded successfully <br>";
+			echo "Tests completed successfully <br>";
 		}
 		else{
-			echo "Tests compleded with ".$this->tests_failed." errors <br>";
+			echo "Tests completed with ".$this->tests_failed." errors <br>";
 		}
 		echo "-------------------- <br>";
 		
