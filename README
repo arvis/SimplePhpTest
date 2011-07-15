@@ -1,0 +1,10 @@
+SimplePhpTest is primitive unit testing framework, providing simplest unit testing features.
+
+Main reason why I created is because PHPUnit is pretty hard to setup in Windows enviroments.
+
+
+Install: 
+Just put basictest.php anywhere in web server document path. 
+
+Using:
+For examples how to use look at tests.php
